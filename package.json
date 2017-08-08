@@ -6,6 +6,9 @@
     "node": ">=4.2.1"
   },
   "main": "restaurantPickerServer.js",
+  "scripts": {
+    "start": "node restaurantPickerServer.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ucollm1/sarahsRestaurantPickerService.git"
