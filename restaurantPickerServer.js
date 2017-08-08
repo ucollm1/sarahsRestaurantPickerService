@@ -1,5 +1,7 @@
 var http = require('http');
 
+console.log("proc env port = " + JSON.stringify(process.env));
+
 //create a server object:
 http.createServer(function (req, res) {
   console.log('request received')
@@ -17,4 +19,4 @@ http.createServer(function (req, res) {
     //res.write('did not match');
   }
   res.end();
-}).listen(80);
+}).listen(process.env.PORT);
