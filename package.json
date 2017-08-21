@@ -1,20 +1,20 @@
 {
-  "name": "sarahs-restaurant-picker-alpha",
-  "version": "0.0.1",
-  "description": "A quick service to maintain and supply a list of restaurants. This is for my own personal play.",
+  "name": "sarahsrestaurantpickerservice",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "body-parser": "~1.17.1",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "ejs": "~2.5.6",
+    "express": "~4.15.2",
+    "morgan": "~1.8.1",
+    "serve-favicon": "~2.4.2"
+  },
   "engines": {
     "node": ">=4.2.1"
-  },
-  "main": "restaurantPickerServer.js",
-  "scripts": {
-    "start": "node restaurantPickerServer.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ucollm1/sarahsRestaurantPickerService.git"
-  },
-  "keywords": [
-    "node",
-    "heroku"
-  ]
+  }
 }
